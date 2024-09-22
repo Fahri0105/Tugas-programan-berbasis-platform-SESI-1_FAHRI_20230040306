@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpot" content="width=device-width, initial-scale=1.0">
+        <title>BIODATA DIRI</title>
+        <!-- CSS -->
+        <style>
+            *, html, body {
+                margin: opx;
+                padding: 0px;
+            }
+
+            body {
+                background-color: grey;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                height: 100vh;
+                font-family: arial,sans-serif;
+            }
+
+            div {
+                background-color: white;
+                height: 400px;
+                width: 400px;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>BIODATA DIRI</h1>
+        <p>NAMA : <span id="name"></span></p>
+        <p>UMUR : <span id="age"></span></p>
+        <p>ALAMAT : <span id="address"></span></p>
+        <p>SEMESTER : <span id="semester"></span></p>
+        </div>
+
+        <!-- java script -->
+        <script>
+            const name = document.querySelector('#name');
+            name.textContent ="M FAHRI RIVALDI";
+
+            const age = document.querySelector('#age');
+            age.textContent = "19";
+
+            const address = document.querySelector('#address');
+            address.textContent = "KP.PASIR ANGIN";
+
+            const semester = document.querySelector('#semester');
+            semester.textContent = "3"
+        </script>
+    </body>
+</html>
